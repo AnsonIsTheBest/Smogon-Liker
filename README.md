@@ -1,0 +1,28 @@
+使用教程：
+目录
+1. 安装node.js
+2. 下载smogon-liker
+3. 安装前置
+
+首先安装node.js
+https://nodejs.org/zh-cn/download
+![v2-f0aac5adef7483eb4713a06cb7d08aad_r](https://github.com/user-attachments/assets/60767dd7-2a15-4c61-b82e-eac9fab8a4d3)
+(在圆圈处选择你的系统并下载）（建议使用安装程序）
+
+以windows为例，双击.msi文件安装
+
+安装后打开cmd或者powershell（win+r 输入"cmd"三个字母/"powershell"十个字母然后回车，这样比较帅。）（不帅的可以在侧边栏windows菜单直接搜索终端，选择命令提示符或者windows powershell。）（win11可以在windows资源管理器里右键空白地方选择在此处打开终端）
+(powershell有tab自动补全，ui也好看，稍微人性化一点）
+打开后分别输入下面两行
+node -v
+npm -v
+分别输出一个版本号（比如v20.19.3)说明安装成功了
+输出一串洋文说明没成功
+
+至此，我们第一步就完成了。
+
+第二步需要你下载这个smogon-liker
+我还没有上传所以你下载不了，哈哈
+
+第三步需要安装前置
+第二步你没法做所以这个也做不了，哈哈
