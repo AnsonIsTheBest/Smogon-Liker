@@ -63,6 +63,38 @@ https://github.com/AnsonIsTheBest/Smogon-Liker/releases
 第四步我们需要启动原神
 首先前往https://ys.mihoyo.com/?utm_source=yuanshen_web，点击pc下载，下载完了安装原神，然后玩到六十级再往下看
 玩完了原神我们来启动我们的点赞程序。在启动之前我们需要先进行配置。
-双击用记事本打开.env文件，里面是我们需要配置的东西。
+双击用记事本打开.env文件，里面是大部分我们需要配置的东西。
 <img width="1124" height="268" alt="image" src="https://github.com/user-attachments/assets/1cc7878c-b25d-4fea-ad54-c720ecfcf841" />
-懒得写了晚点补上，自己查吧不会问我，晚点写个自动获取的插件
+
+第一行的token，需要自行填写 是用于模拟discord登录，利用我下面提供的插件可以方便的获取。教程在下面
+第二三行不用了
+第四行是频道id。需要自行填写。 首先访问网页版discord(https://discord.com/channels/@me),然后点左下角小齿轮，找到language，先把语言换成中文。然后找到高级设置，开启开发者模式。退出设置界面，然后鼠标右键你的like like channel，点击复制频道id。这个就是你的频道id
+<img width="1917" height="923" alt="image" src="https://github.com/user-attachments/assets/9b50510f-5cea-451a-8e83-b5e7d912e363" />
+<img width="1914" height="917" alt="image" src="https://github.com/user-attachments/assets/5ab1d09c-f3e9-4c95-be9d-3ee31c75f679" />
+<img width="1919" height="900" alt="屏幕截图 2025-09-18 192807" src="https://github.com/user-attachments/assets/dd582f0f-c395-4266-8a34-c297607b4ef1" />
+
+第五行不用管
+第六行是冷却，太快了会不让进去，速度要适中才会舒服
+第七行写在里面了，应该是不用改
+第八行也写在里面了，应该也是不用改
+第九行是抓取的discord的历史消息的数量，意思就是启动机器人之后会查找多少条以内的消息来找like like的链接
+
+安装这个
+https://greasyfork.org/en/scripts/550007-export-discord-token-and-smogon-cookies
+油猴怎么装都会了吧，不会找我
+然后打开https://discord.com/channels/@me 右上角会有一串
+
+
+
+{
+  "token": "dhsioj jsoij js jiojsijo jsijo "
+}
+
+
+复制dhsioj jsoij js jiojsijo jsijo 这一串，这就是你的token。
+
+然后还有一个smogon cookie要导出，这个用于模拟登录smogon
+还是上面那个脚本，打开forum.smogon.com 然后右上角还是会出来一个框，点击那个蓝色的按钮。然后把下载下来的文件拖到你的index.js同一文件夹下选择替换
+
+最后像之前一样在文件夹下启动终端，输入node index.js就能启动了
+报错我都改成中文了，报出英文的错就来找我
