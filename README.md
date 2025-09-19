@@ -6,7 +6,7 @@
 
 首先安装node.js
 https://nodejs.org/zh-cn/download
-![v2-f0aac5adef7483eb4713a06cb7d08aad_r](https://github.com/user-attachments/assets/60767dd7-2a15-4c61-b82e-eac9fab8a4d3)
+<img width="970" height="910" alt="image" src="https://github.com/user-attachments/assets/b8527993-0ed5-4c4e-a5db-bb43a8d04f0b" />
 (在圆圈处选择你的系统并下载）（建议使用安装程序）
 
 以windows为例，双击.msi文件安装
@@ -22,7 +22,9 @@ npm -v
 至此，我们第一步就完成了。
 
 第二步需要你下载这个smogon-liker
-我还没有上传所以你下载不了，哈哈
+https://github.com/AnsonIsTheBest/Smogon-Liker/releases
+在这里，最上面的框框下
+
 
 第三步需要安装前置
 第二步你没法做所以这个也做不了，哈哈
